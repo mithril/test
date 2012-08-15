@@ -13,6 +13,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UIImageView *backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background-wood"]];
+    [self.window addSubview:backgroundImageView];
+    
+    if (application.statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown ||
+        application.statusBarOrientation == UIInterfaceOrientationLandscapeRight) {
+        backgroundImageView.transform = CGAffineTransformMakeRotation(M_PI);
+    }
+    
     return YES;
 }
 							
