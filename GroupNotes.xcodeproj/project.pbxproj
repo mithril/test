@@ -15,6 +15,10 @@
 		34A0717E15DBC96F006DEE94 /* GNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0717D15DBC96F006DEE94 /* GNAppDelegate.m */; };
 		34A0718115DBC96F006DEE94 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A0717F15DBC96F006DEE94 /* MainStoryboard.storyboard */; };
 		34A0718415DBC96F006DEE94 /* GNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0718315DBC96F006DEE94 /* GNViewController.m */; };
+		34FFE62115DBCC2F0031FDDE /* background-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFE61F15DBCC2F0031FDDE /* background-wood.png */; };
+		34FFE62215DBCC2F0031FDDE /* background-wood@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFE62015DBCC2F0031FDDE /* background-wood@2x.png */; };
+		34FFE62515DBCD6C0031FDDE /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFE62415DBCD6C0031FDDE /* Default-Portrait~ipad.png */; };
+		34FFE62715DBCD730031FDDE /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 34FFE62615DBCD730031FDDE /* Default-Portrait@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		34A0718015DBC96F006DEE94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		34A0718215DBC96F006DEE94 /* GNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNViewController.h; sourceTree = "<group>"; };
 		34A0718315DBC96F006DEE94 /* GNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNViewController.m; sourceTree = "<group>"; };
+		34FFE61F15DBCC2F0031FDDE /* background-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-wood.png"; sourceTree = "<group>"; };
+		34FFE62015DBCC2F0031FDDE /* background-wood@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-wood@2x.png"; sourceTree = "<group>"; };
+		34FFE62415DBCD6C0031FDDE /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		34FFE62615DBCD730031FDDE /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,8 @@
 		34A0715E15DBC96F006DEE94 = {
 			isa = PBXGroup;
 			children = (
+				34FFE62615DBCD730031FDDE /* Default-Portrait@2x~ipad.png */,
+				34FFE62415DBCD6C0031FDDE /* Default-Portrait~ipad.png */,
 				34A0717315DBC96F006DEE94 /* GroupNotes */,
 				34A0716C15DBC96F006DEE94 /* Frameworks */,
 				34A0716A15DBC96F006DEE94 /* Products */,
@@ -82,6 +92,7 @@
 				34A0717F15DBC96F006DEE94 /* MainStoryboard.storyboard */,
 				34A0718215DBC96F006DEE94 /* GNViewController.h */,
 				34A0718315DBC96F006DEE94 /* GNViewController.m */,
+				34FFE62315DBCC4A0031FDDE /* Images */,
 				34A0717415DBC96F006DEE94 /* Supporting Files */,
 			);
 			path = GroupNotes;
@@ -96,6 +107,15 @@
 				34A0717B15DBC96F006DEE94 /* GroupNotes-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34FFE62315DBCC4A0031FDDE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				34FFE61F15DBCC2F0031FDDE /* background-wood.png */,
+				34FFE62015DBCC2F0031FDDE /* background-wood@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +172,10 @@
 			files = (
 				34A0717815DBC96F006DEE94 /* InfoPlist.strings in Resources */,
 				34A0718115DBC96F006DEE94 /* MainStoryboard.storyboard in Resources */,
+				34FFE62115DBCC2F0031FDDE /* background-wood.png in Resources */,
+				34FFE62215DBCC2F0031FDDE /* background-wood@2x.png in Resources */,
+				34FFE62515DBCD6C0031FDDE /* Default-Portrait~ipad.png in Resources */,
+				34FFE62715DBCD730031FDDE /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +304,7 @@
 				34A0718915DBC96F006DEE94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
